@@ -103,7 +103,7 @@ if __name__ == "__main__":
     listener = keyboard.Listener(on_press=on_press, on_release=on_release)
     listener.start()
 
-    dlg.show()  # IMPORTANT!!!!! Windows are hidden by default.
+    dlg.show()
     # Start the event loop.
     app.exec()
 
