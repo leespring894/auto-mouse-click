@@ -11,13 +11,13 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>자동 마우스 클릭</string>
+   <string>Auto Mouse Click</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_3">
    <item>
     <widget class="QGroupBox" name="groupBox">
      <property name="title">
-      <string>사용법</string>
+      <string>Usage</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
@@ -35,13 +35,13 @@ F12 : Terminate this program.</string>
    <item>
     <widget class="QGroupBox" name="groupBox_2">
      <property name="title">
-      <string>상태</string>
+      <string>Status</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
        <widget class="QLabel" name="labelStatus">
         <property name="text">
-         <string>&lt;B&gt;정지&lt;/B&gt;</string>
+         <string>&lt;B&gt;Disabled&lt;/B&gt;</string>
         </property>
        </widget>
       </item>

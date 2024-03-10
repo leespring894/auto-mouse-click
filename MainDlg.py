@@ -56,12 +56,12 @@ class Ui_Dialog(object):
     # setupUi
 
     def retranslateUi(self, Dialog):
-        Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"\uc790\ub3d9 \ub9c8\uc6b0\uc2a4 \ud074\ub9ad", None))
-        self.groupBox.setTitle(QCoreApplication.translate("Dialog", u"\uc0ac\uc6a9\ubc95", None))
+        Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"Auto Mouse Click", None))
+        self.groupBox.setTitle(QCoreApplication.translate("Dialog", u"Usage", None))
         self.labelUsage.setText(QCoreApplication.translate("Dialog", u"F2 : Toggle auto click mouse.\n"
 "F3 : Toggle auto move mouse.\n"
 "F12 : Terminate this program.", None))
-        self.groupBox_2.setTitle(QCoreApplication.translate("Dialog", u"\uc0c1\ud0dc", None))
-        self.labelStatus.setText(QCoreApplication.translate("Dialog", u"<B>\uc815\uc9c0</B>", None))
+        self.groupBox_2.setTitle(QCoreApplication.translate("Dialog", u"Status", None))
+        self.labelStatus.setText(QCoreApplication.translate("Dialog", u"<B>Disabled</B>", None))
     # retranslateUi
 

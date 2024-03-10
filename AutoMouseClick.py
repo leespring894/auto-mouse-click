@@ -9,6 +9,7 @@ import sys
 import time
 
 from MainDlg import Ui_Dialog
+from Version import VERSION
 
 AUTO_CLICK_BIT = 1
 AUTO_MOVE_BIT = 2
@@ -56,6 +57,7 @@ class MainDlg(QDialog):
         QDialog.__init__(self, None)
         self.ui = Ui_Dialog()
         self.ui.setupUi(self)
+        self.setWindowTitle(self.windowTitle() + ' - v' + VERSION)
 
     @Slot(bool)
     def statusChagned(self, auto_mouse):
